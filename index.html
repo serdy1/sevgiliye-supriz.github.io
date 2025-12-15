@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalbimi Tamir Et ❤️</title>
+    <meta name="theme-color" content="#ff6b6b">
+    <link rel="manifest" href="data:application/manifest+json,{&quot;name&quot;:&quot;Kalbimi Tamir Et&quot;,&quot;short_name&quot;:&quot;Kalp Tamiri&quot;,&quot;start_url&quot;:&quot;.&quot;,&quot;display&quot;:&quot;standalone&quot;,&quot;background_color&quot;:&quot;#fff0f0&quot;,&quot;theme_color&quot;:&quot;#ff6b6b&quot;,&quot;icons&quot;:[{&quot;src&quot;:&quot;https://img.icons8.com/fluency/96/000000/hearts.png&quot;,&quot;sizes&quot;:&quot;96x96&quot;,&quot;type&quot;:&quot;image/png&quot;}]}">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #fff0f0, #ffe0e0);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+        h1 { font-size: 2.5em; color: #ff4444; margin: 20px 0; }
+        p { font-size: 1.2em; line-height: 1.6; max-width: 800px; margin: 20px auto; }
+        .heart { font-size: 100px; animation: beat 1.5s infinite; }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        .section { margin: 60px 0; padding: 20px; background: rgba(255,255,255,0.7); border-radius: 20px; }
+        ul { text-align: left; max-width: 600px; margin: 20px auto; }
+        li { margin: 15px 0; font-size: 1.1em; }
+        .photo { width: 80%; max-width: 400px; border-radius: 20px; margin: 20px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.3em;
+            margin: 40px 0;
+            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+            cursor: pointer;
+        }
+        .btn:hover { background: #ff4444; }
+
+        /* Yıldız yağmuru efekti */
+        .stars {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 10;
+        }
+        .star {
+            position: absolute;
+            color: gold;
+            font-size: 20px;
+            animation: fall linear forwards;
+        }
+        @keyframes fall {
+            to { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+
+        /* Yüzük efekti */
+        #ring-container {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            font-size: 2em;
+            z-index: 20;
+        }
+        #ring {
+            font-size: 150px;
+            animation: shine 2s infinite;
+        }
+        @keyframes shine {
+            0%,100% { opacity: 1; }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">💔 → ❤️</div>
+    <h1>Canım Benim...</h1>
+    <p>Affettin ama hala biraz kırgın olduğunu hissediyorum. Bu sayfayı senin kalbindeki o küçük çentiği tamamen silmek için yaptım.<br>Aşağı kaydır, lütfen ❤️</p>
+
+    <div class="section">
+        <h2>Neden bu kadar üzgünüm?</h2>
+        <ul>
+            <li>Çünkü senin gözyaşın benim içimi yakıyor.</li>
+            <li>Çünkü mesafe yüzünden sarılıp özrümü yüzüne söyleyememek beni çaresiz hissettiriyor.</li>
+            <li>Çünkü sen benim en değerli varlığım, ve sana zarar vermek dünyadaki en büyük aptallık olur.</li>
+            <li>Çünkü sensiz geçecek bir dakika bile düşünemiyorum.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Seni ne kadar sevdiğimi hatırlatayım mı?</h2>
+        <img src="https://via.placeholder.com/400x500/ffe0e0/ff6b6b?text=İlk+Sarılma+Anımız" class="photo" alt="Anımız">
+        <p><strong>“Bu fotoğrafta ruhen sarıldığımız ilk anımız”</strong></p>
+        
+        <img src="https://via.placeholder.com/400x500/e0ffff/ff6b6b?text=Geleceğimiz+Günler" class="photo" alt="Anımız">
+        <p><strong>“Bu fotoğrafta ise yaşayacağımız o güzel gününün en mutlu anı”</strong></p>
+    </div>
+
+    <div class="section">
+        <h2>Sana söz veriyorum</h2>
+        <ul>
+            <li>Mesafeler yalnızca yolları uzatır; gönlümün yönünü asla değiştiremez.</li>
+            <li>Araya ne girerse girsin, kalbimin pusulası daima seni gösterecek.</li>
+            <li>Araya yollar, yıllar, mesafeler girse de; gönlüm daima senin yanında, seninle olacak.</li>
+            <li>Kalbini incitecek tek bir an dahi bir daha yaşanmayacak.</li>
+            <li>Her sabah seninle uyanıp seninle uykuya dalacağım.</li>
+        </ul>
+    </div>
+
+    <div class="heart">❤️</div>
+    <h1>Kalbimmm, ömrümmm, herşeyimm<br>Seni çok seviyorum</h1>
+    
+    <p><strong>Seni sevmeden tek bir an bile geçirmeyeceğim<br>
+    Sensiz tek bir anım bile olmasın çünkü sen kalbimin ihtiyacısınnn ruhumun sahibisin</strong></p>
+    
+    <p><strong>Ömrüme ömür katan sevgilimmm</strong></p>
+
+    <div class="btn" onclick="proposal()">Benimle çıkar mısın? 💍</div>
+
+    <!-- Yıldız yağmuru -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Yüzük ekranı -->
+    <div id="ring-container">
+        <div id="ring">💍</div>
+        <h1>Evet der misin? 🥹❤️</h1>
+    </div>
+
+    <script>
+        function proposal() {
+            // Yıldız yağmuru
+            const starsContainer = document.getElementById('stars');
+            for (let i = 0; i < 100; i++) {
+                const star = document.createElement('div');
+                star.classList.add('star');
+                star.innerText = '✨';
+                star.style.left = Math.random() * 100 + 'vw';
+                star.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                star.style.animationDelay = Math.random() * 1 + 's';
+                starsContainer.appendChild(star);
+            }
+
+            // Yüzük ekranı göster
+            document.getElementById('ring-container').style.display = 'flex';
+
+            // 10 saniye sonra yıldızları temizle (isteğe bağlı)
+            setTimeout(() => {
+                starsContainer.innerHTML = '';
+            }, 10000);
+        }
+    </script>
+</body>
+</html>
